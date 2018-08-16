@@ -20,5 +20,8 @@
   "homepage": "https://github.com/smilefam/SendBird-JavaScript#readme",
   "devDependencies": {
     "express": "^4.16.3"
+  },
+  "dependencies": {
+    "react-native-fcm": "^16.1.0"
   }
 }
