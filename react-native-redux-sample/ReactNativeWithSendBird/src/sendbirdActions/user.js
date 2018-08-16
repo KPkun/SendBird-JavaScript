@@ -6,7 +6,8 @@ import {
 import FCM, {NotificationActionType} from "react-native-fcm";
 
 // const APP_ID = '078105E7-BD8C-43C9-A583-59E334353965'; // test
-const APP_ID = '9DA1B1F4-0BE6-4DA8-82C5-2E81DAB56F23'; // sample
+// const APP_ID = '9DA1B1F4-0BE6-4DA8-82C5-2E81DAB56F23'; // sample
+const APP_ID = 'D4818EB6-7DD4-4A2F-BDC7-8FB6CFE992EF'; // Tabiko POC
 
 export const sbRegisterPushToken = (token) => {
     return new Promise((resolve, reject) => {
